@@ -1,7 +1,7 @@
 package Task3;
 
-abstract class Sortable {
-    public abstract int compare(Sortable b);
+public interface Sortable_int {
+	public abstract int compare(Sortable b);
     public static void shell_sort(Sortable[] a){     
         /*For loop sampai interval 1*/
         for(int interval = a.length/2; interval>0 ; interval/=2){
